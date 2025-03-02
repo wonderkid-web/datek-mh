@@ -6,10 +6,12 @@
 </script>
 
 
-<div class="container min-h-screen min-w-screen">
+<div class="container max-w-screen max-h-screen">
     <Sidebar />
     <Navbar />
-	{@render children()}    
+	<main class="col-start-3 -col-end-1 row-start-2 -row-end-1 overflow-auto bg-red-200 p-4">
+		{@render children()}    
+	</main>
 </div>
     
 
