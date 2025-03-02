@@ -8,7 +8,6 @@
     a{
         gap: 1;
         font-size: 1em;
-        font-family: '', cursive;
     }
 
     a:hover{
