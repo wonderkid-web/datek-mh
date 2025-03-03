@@ -48,23 +48,19 @@ export const SectionLinks = writable([
             names: "Test 9"
         }]
     }
-    // {
-    //     link: "/test2",
-    //     names: "Test 2"
-    // },
-    ])
+])
 
-// export const Section = [
-//     {
-//         id: '1',
-//         name: "Section 1"
-//     },
-//     {
-//         id:'2',
-//         name: "Section 2"
-//     },
-//     {
-//         id:'3',
-//         name: "Section 3"
-//     },
-// ]
+export const NavLinks = [
+    {
+        link: "#",
+        name: "Test 1"
+    },
+    {
+        link: "#",
+        name: "Test 2"
+    },
+    {
+        link: "#",
+        name: "Test 3"
+    },
+]
