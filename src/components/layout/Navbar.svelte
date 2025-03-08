@@ -1,1 +1,3 @@
-<nav class="col-span-12 col-start-3 bg-yellow-400">2</nav>
+<nav class="bg-emerald-600 p-4 inline-block text-white">
+    <h1 class="text-2xl font-semibold">PT. Mahkota Group, TBK</h1>
+</nav>

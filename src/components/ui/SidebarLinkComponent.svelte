@@ -1,16 +1,18 @@
 <script>
-    let {link, names} = $props()
+	import { Button } from '$lib/components/ui/button';
+
+	let { link, names } = $props();
 </script>
 
-<a href={link}>{names}</a>
+<Button>test</Button>
 
 <style>
-    a{
-        gap: 1;
-        font-size: 1em;
-    }
+	a {
+		gap: 1;
+		font-size: 1em;
+	}
 
-    a:hover{
-        background-color: white;
-    }
+	a:hover {
+		background-color: white;
+	}
 </style>

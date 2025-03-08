@@ -1,29 +1,23 @@
 <script lang="ts">
-	import '../app.css';
+	import '../app.postcss';
 	import Navbar from '../components/layout/Navbar.svelte';
-	import Sidebar from '../components/layout/Sidebar.svelte';
+	import AppSidebar from '$lib/components/app-sidebar.svelte';
+	import * as Sidebar from '$lib/components/ui/sidebar';
+
 	let { children } = $props();
 </script>
 
+<div class="flex max-h-screen w-full">
+	<aside>
+		<Sidebar.Provider>
+			<AppSidebar />
+		</Sidebar.Provider>
+	</aside>
 
-<div class="container max-w-screen max-h-screen">
-    <Sidebar />
-    <Navbar />
-	<main class="col-start-3 -col-end-1 row-start-2 -row-end-1 overflow-auto bg-red-200 p-4">
-		{@render children()}    
-	</main>
+	<div class="flex flex-col w-full overflow-auto h-1/2">
+		<Navbar />
+		<main class="h-[95vh] overflow-auto">
+			{@render children()}
+		</main>
+	</div>
 </div>
-    
-
-
-
-
-
-<style>
-	.container {
-		display: grid;
-		grid-template-columns: 5vw repeat(11, 1fr);
-		grid-template-rows: 75px repeat(11, 1fr);
-		gap: 0px;
-	}
-</style>
