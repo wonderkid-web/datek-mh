@@ -37,7 +37,7 @@
 		],
 		navMain: [
 			{
-				title: 'Playground',
+				title: 'Analytics',
 				url: '#',
 				icon: SquareTerminal,
 				isActive: true,
@@ -47,35 +47,35 @@
 						url: '#'
 					},
 					{
-						title: 'Starred',
+						title: 'Performance',
 						url: '#'
 					},
 					{
-						title: 'Settings',
+						title: 'Product',
 						url: '#'
 					}
 				]
 			},
 
 			{
-				title: 'Documentation',
+				title: 'Services',
 				url: '#',
 				icon: BookOpen,
 				items: [
 					{
-						title: 'Introduction',
+						title: 'Reports',
 						url: '#'
 					},
 					{
-						title: 'Get Started',
+						title: 'Documentation',
 						url: '#'
 					},
 					{
-						title: 'Tutorials',
+						title: 'Supports',
 						url: '#'
 					},
 					{
-						title: 'Changelog',
+						title: 'Helps',
 						url: '#'
 					}
 				]
@@ -94,11 +94,11 @@
 						url: '#'
 					},
 					{
-						title: 'Billing',
+						title: 'Security',
 						url: '#'
 					},
 					{
-						title: 'Limits',
+						title: 'Customers',
 						url: '#'
 					}
 				]
