@@ -1,14 +1,3 @@
-<script>
-	import { NavLinks } from "$lib";
-	import NavbarLinkComponent from "../ui/NavbarLinkComponent.svelte";
-
-</script>
-<nav class="col-span-12 col-start-3 bg-yellow-400">
-    <div class="nav">
-        <div class="nav-links flex">
-            {#each NavLinks as {link,name}}
-                <NavbarLinkComponent link={link} name={name}/>
-            {/each}
-        </div>
-    </div>
+<nav class="bg-emerald-600 p-4 inline-block text-white">
+    <h1 class="text-2xl font-semibold">PT. Mahkota Group, TBK</h1>
 </nav>
